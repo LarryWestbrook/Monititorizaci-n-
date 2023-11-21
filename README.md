@@ -13,4 +13,9 @@
 
 ## Referencias 
 
+- Apuntes de clase 
+- Diapositivas de nuestro profesor [Manuel Domínguez Tienda](https://github.com/mftienda)
+
 ## Licencias 
+
+![image](/img/207535126-738a0f71-fb66-4c4b-97e7-09cc6c79f1df.png)
