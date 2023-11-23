@@ -67,4 +67,57 @@ $ free -c 3 --> especificas el número de veces que se mostrará la salida del c
 ```sh 
 $ df -h --> te muestra lo que esta montado en el disco
 $ df -hT --> se utiliza para mostrar información sobre el uso del espacio en disco en el sistema de archivos.
+$ lslk --> te muestra todos los discos duros montados y sin montar
+$ fdisk -l -->
+$ iostat --> sirve para comprobar la lectura y escritura de discos 
 ```
+
+## Ejemplo del uso de isostat
+
+![image](/img/Captura%20desde%202023-11-23%2008-49-46.png)
+
+![image](/img/Captura%20desde%202023-11-23%2008-56-40.png)
+
+
+# TRÁFICO DE LA RED
+
+**tcpdump**: Analiza el tráfico que circula por la red.
+
+**tcptrack**: Nos muestra las conexiones establecidas, su origen, destino, estado, el tiempo
+de iddle y la velocidad de transferencia.
+
+**iptraf**: Intercepta paquetes en la red y muestra información sobre el tráfico.
+
+**bandwidthd**: una herramienta específica de monitorización del ancho de banda
+netstat (ss): Muestra las conexiones activas de una computadora, tanto entrantes como
+salientes.
+
+```sh
+# tcpdump 
+# tcpdump  -i eno1 
+# tcpdump -n -i eno1 net 172.26.0.0/16
+
+# tcptrack
+# tcptrack -i eno1 → coge el trafico de la red
+
+# iptraf
+
+- Ip del Servidor + bandwidthd para ver el tráfico de la red
+http://172.26.0.1/bandwidthd/
+```
+
+# PUERTOS
+**netstat (ss)**: Muestra las conexiones activas de una computadora, tanto entrantes como
+salientes.
+
+**Nagios**: es una herramienta de monitorización de código abierto que permite
+supervisar hosts, servicios y redes. Ofrece notificaciones, informes y
+visualizaciones a través de su interfaz web.
+
+**Zabbix**: proporciona monitorización avanzada con capacidades de recopilación
+de datos, alertas, visualizaciones gráficas y más. Su interfaz web es robusta y
+fácil de usar.
+
+**Prometheus**: es una solución de monitorización y alerta diseñada especialmente
+para entornos dinámicos. Ofrece almacenamiento local de series temporales y
+una interfaz web para consultas y visualizaciones.
