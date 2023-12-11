@@ -1,4 +1,4 @@
-# Monititorización
+# Monitorización
 > Este proyecto esta basado en la monitorización de servidores.
 
 ![image](/img/monitorización-de-sistemas-informaticos.jpg)
