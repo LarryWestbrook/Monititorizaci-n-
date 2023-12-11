@@ -12,4 +12,6 @@ sobre:
 # ¿Por qué es importante monitorizar?
 
 Nos permite detectar problemas, optimizar recursos, planificar la capacidad
-futura, y tomar medidas proactivas para evitar interrupciones.
+futura, y tomar medidas proactivas para evitar interrupciones
+
+![image](/img/monitorizacion.png)
